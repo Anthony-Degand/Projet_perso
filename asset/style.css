@@ -53,10 +53,37 @@ html {--res:calc(0.01*10vmin);}
     font-weight: bold;
 }
 
+.walkman {
+    width:calc(700* var(--res));
+    height:calc(465* var(--res));
+    position:fixed;
+    top:43%;
+    left:12%;
+}
+
 .walkman_corp {
     width: calc(700* var(--res));
     position: absolute;
-    top:68%;
-    transform: translateY(-50%);
-    left:10%;
+    z-index: 20;
+    bottom: 0%;
+}
+
+.walkman_btn {
+    width:calc(180* var(--res));
+    position:absolute;
+    left:63%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.walkman_petit_btn {
+    position: absolute;
+    left:48%;
+    z-index: 1;
+}
+
+.walkman_petit_btn2 {
+    position: absolute;
+    left:38%;
+    z-index: 1;
 }
