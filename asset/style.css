@@ -79,11 +79,36 @@ html {--res:calc(0.01*10vmin);}
 .walkman_petit_btn {
     position: absolute;
     left:48%;
+    cursor: pointer;
     z-index: 1;
 }
 
 .walkman_petit_btn2 {
     position: absolute;
     left:38%;
+    cursor: pointer;
     z-index: 1;
 }
+
+/* .walkman_pad {
+    
+    width:calc(40* var(--res));
+    background-color: aquamarine;
+    z-index: 21;
+    position: fixed;
+    top:calc(750* var(--res));
+    left:calc(800* var(--res));
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.walkman_pause {
+    width:calc(40* var(--res));
+    position: absolute;
+    display: none;
+}
+
+.walkman_play {
+    width:calc(40* var(--res));
+    position: absolute;    
+} */
